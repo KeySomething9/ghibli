@@ -75,25 +75,29 @@ html, body {
     align-items: center; 
     justify-content: center;
 }
-
 .skills-video-box2{
     position: relative;
     padding: 7.5px;
     height: 520px;
     width: 470px;
-    display: flex;
+
 }
 /*.wrapper{
     position: relative;
 }*/
 #txtwrap{
     position: absolute;
+    left:50%;
+    transform: translateX(-50%);
     top:0px;
     font-size: 75px;
     color: white;
 }
 #ptxt{
     position: absolute;
+    width: 398px;
+    left:50%;
+    transform: translateX(-50%);
     top:230px;
     font-size: 20px;
     color: white;
@@ -113,7 +117,7 @@ html, body {
 }
 button{
     position: absolute;
-    
+    left:10%;
     bottom:100px;
     font-size: 20px;
     width: 200px;
@@ -168,11 +172,3 @@ button:hover {
         display: block;
     }
 }
-/*@media (max-width: 1224px) {
-    .skills-video-box {
-        display: none;
-    }
-     .still-video-box {
-        display: block;
-    }
-}*/
